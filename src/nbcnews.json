@@ -1,0 +1,16 @@
+[
+  {
+    "findElementBy": "cssSelector",
+    "value": "a[href*='/world']",
+    "expectedData": "https://www.nbcnews.com/world",
+    "actualData": "",
+    "assertionType": "urlEquals"
+  },
+  {
+    "findElementBy": "linkText",
+    "value": "Watch live",
+    "expectedData": "https://www.nbcnews.com/now",
+    "actualData": "",
+    "assertionType": "urlEquals"
+  }
+]
